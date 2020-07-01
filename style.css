@@ -1,0 +1,253 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+header{
+	height: 30px;
+	padding: 10px 150px;
+	background-color: #0b0a0b;
+}
+header h1{
+	float: left;
+	color: #fff;
+}
+.active{
+	background-color: #b1b6b2;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.container ul{
+	float: right;
+}
+.container ul li{
+ 	display: inline-block;
+ 	padding:10px 25px;
+ 	margin-right: 25px;
+}
+.container ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+section{
+	padding: 50px 0;
+}
+.banner{
+	padding: 50px auto;
+	background-color: #d8ebab;
+	background-image: url(img/KING.jpg);
+	background-size: 50%;
+	border: 1px solid;
+	background-position: center;
+	background-origin: content-box; 
+}
+.banner{
+	padding: 150px;
+
+}
+.banner-i h2{
+	font-size: 40px;
+	text-align: center;
+	color: #fff;
+}
+.banner-i p{
+	margin-top: 15px;
+	text-align: center;
+	color: #fff;
+}
+
+section h3{
+	text-align: center;
+	
+}
+.about{
+	background-color: #b1b6b2;
+	margin: 20px;
+}
+
+.about h3{
+	margin: 20px;
+}
+
+p{
+	text-align: justify;
+	align-items: center;
+	white-space: pre-line;
+	padding: 13px;
+	font-size: 24px;
+	box-sizing: border-box;
+
+}
+#knowledge{
+	background-color: #000;
+
+}
+#knowledge h3 {
+	color: #fff;
+}
+#knowledge h4{
+	color: #fff;
+	margin: 20px;
+
+}
+#knowledge .bar{
+	margin-top: 20px;
+	background-color: #fff;
+	height: 30px;
+	border: 1px solid #fff;
+	margin:5px 0 20px 0;
+	border: 1px solid #b1b6b2;
+}
+.bar .nilai{
+	height: 30px;
+	background-color: #545349;
+	display: inline-block;
+	color: #fff;
+	text-align: center;
+}
+.html{
+	width: 40%;
+}
+.css{
+	width: 30%;
+}
+.php{
+	width: 20%;
+}
+.javascript{
+	width: 20%;
+}
+.office{
+	width: 50%;
+}
+
+#portfolio{
+	background:#000;
+	color: #fff;
+	padding: 15px;
+}
+
+.col-4 {
+	width:25%;
+	box-sizing: border-box;
+	padding:5px;
+	float: left;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	background:#000;
+}
+.col-4 img {
+	width:100%;
+}
+.col-4 a:hover img {
+	transform: scale(1.2);
+}
+.col-4 a{
+	text-decoration: none;
+	color: #fff;
+}
+
+/*contact */
+.sos-section{
+	overflow: hidden;
+	text-align: center;
+	background:#000;
+	padding: 60px;
+}
+.sos-section h1{
+	text-transform: uppercase;
+	margin-bottom: 60px;
+	color: #fff;
+	font-size: 40px;
+}
+.border{
+	display: block;
+	margin: auto;
+	width: 160px;
+	height: 3px;
+	background:#fff;
+	margin-bottom: 40px;
+}
+.ps{
+	margin-bottom: 40px;
+}
+.ps a{
+	display: inline-block;
+	margin: 0 30px;
+	width: 160px;
+	height: 160px;
+	overflow: hidden;
+	border-radius: 50%;
+}
+.ps a img{
+	width: 100%;
+	filter: grayscale(100%);
+	transition: 0.4s all;
+
+}
+.ps a:hover > img{
+	filter: none;
+}
+
+.section{
+	width: 600px;
+	margin: auto;
+	font-size: 20px;
+	color: #fff;
+	text-align: justify;
+	height: 0;
+	overflow: hidden;
+}
+.section:target{
+	height: auto;
+}
+.name{
+	display: block;
+	margin-bottom: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 22px;
+}
+p{
+	text-align: center;
+}
+
+
+footer{
+	padding: 20px 0;
+	background-color: #b1b6b2;
+	text-align: center;
+	font-weight: 20px;
+}
+
+@media screen and (max-width: 768px){
+	.container{
+		width: 100%;
+	}
+	header h1 {
+		text-align: center;
+		float: none;
+	}
+	
+	header ul li a{
+		float: none;
+		text-align: center;
+		display: inline-block;
+	}
+	#portfolio .col-4{
+		width: 100%;
+	
+	}
+	#knowledge .bar .nilai{
+		width: 100%;
+		height: 100%;
+	}
+	.sos-section .section{
+		width: 100%;
+	}
+
+}
